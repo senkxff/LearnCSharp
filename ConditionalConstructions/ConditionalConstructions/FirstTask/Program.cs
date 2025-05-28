@@ -10,10 +10,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите Ваше первое число: ");
+            Console.Write("Введите Ваше первое число: ");
             double firstNumber = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Введите Ваше второе число: ");
+            Console.Write("Введите Ваше второе число: ");
             double secondNumber = Convert.ToDouble(Console.ReadLine());
 
             if (firstNumber > secondNumber)
