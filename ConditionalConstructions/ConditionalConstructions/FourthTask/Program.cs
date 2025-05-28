@@ -7,7 +7,6 @@
      * В конце программа должна выводить сумму вклада с начисленными процентами.
      * Для получения вводимого с клавиатуры числа используйте выражение Convert.ToDouble(Console.ReadLine());
      */
-
     internal class Program
     {
         static void Main(string[] args)
