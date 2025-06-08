@@ -33,14 +33,14 @@
                     Console.Write("{");
                     for (int k = 0; k <= z; k++)
                     {
-                        Console.Write($"{mas[i, j, k]}");
-                        if (k < z) Console.Write(" , ");
+                        Console.Write($"{mas[i,j,k]}");
+                        if (k < z) Console.Write(",");
                     }
                     Console.Write("}");
-                    if (j < y) Console.Write(" , ");
+                    if (j < y) Console.Write(",");
                 }
                 Console.Write("}");
-                if (i < x) Console.Write(" , ");
+                if (i < x) Console.Write(",");
             }
             Console.Write("}");
         }
